@@ -1,0 +1,25 @@
+img{
+    width:130px;
+    height:150px;
+}
+a{
+    text-decoration: none;
+}
+
+div.s{
+    border:1px solid black;
+    background:lightcyan;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+div.img{
+    float: left;
+  padding: 5px;
+}
+
+div.s:after {
+    content: "";
+    clear: both;
+    display: table;
+  }

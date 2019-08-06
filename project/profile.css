@@ -1,0 +1,20 @@
+div.main{
+    margin:auto;
+    border:1px solid black;
+    width:840px;
+    margin-bottom:20px; 
+    
+}
+div.bar{
+    background:#333;
+    color:white;
+    font-size:20px;
+    height:30px;
+    padding:10px;
+}
+img{
+    height:300px;
+    width:300px;
+    border-radius:5656565px;
+    margin-left:500px;
+}

@@ -1,0 +1,19 @@
+img{
+    max-height:250px;
+    max-width:300px;
+    width: auto;
+    height: auto;
+    float:left;
+    padding:10px;
+}
+div.sub{
+    border:1px solid black;
+    margin-bottom:10px;
+    height:250px;
+    border-radius:8px;
+    background:lightgrey;
+}
+a{
+    text-decoration:none;
+    color:black;
+}

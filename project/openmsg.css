@@ -1,0 +1,27 @@
+div.main{
+    margin:auto;
+    border:1px solid black;
+    width:840px;
+    margin-bottom:20px; 
+    background:white;
+}
+
+p{
+    font-size:18px;
+    padding:10px;
+}
+
+input[type=submit]{
+    padding:10px;
+    background:#333;
+    color:silver;
+    border:none;
+    margin-left:10px;
+    
+}
+input[type=text]{
+    padding:10px;
+    width:150px;
+    height:40px;
+    margin-left:10px;
+}

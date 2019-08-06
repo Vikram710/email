@@ -1,0 +1,179 @@
+body{
+  margin-left:210px;
+  margin-top:0px;
+  font-family:sans-serif;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+
+
+}
+nav{
+    margin-left:-210px;
+    text-align:left;
+    width: 100%;
+    background:#111; 
+    height:80px;
+    position: fixed;
+    margin-bottom: 100px;
+  }
+  
+div.logo {
+    width: 8%;
+    height:60px;
+    float: left;
+    text-align:right;
+    font-size:25px;
+    margin-top:8px;
+    margin-left:10px;
+    padding-left: 2%;
+    padding-right:20px;
+    background:white;
+    background-image: url("photo/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid red;
+  }
+  div.home a{
+    text-decoration: none;
+    color:white;
+    padding:10px;
+    font-size:24px;
+    margin-left:10px;
+    height:60px;
+  }
+  nav a:hover {
+    color:tomato;
+  }
+div.home{ 
+  margin-top:23px;
+  float: left;
+  text-align:right;
+}
+
+
+div.profile{
+  float:right;
+  color:white;
+}
+span.hey{
+  font-size:25px;
+  position: absolute;
+  top:25px;
+  float:right;
+  right:150px;
+}
+img.p{
+  height:60px;
+  width:60px;
+  margin-top:8px;
+  margin-right:10px;
+  border-radius:90px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+  
+}
+
+
+div.side {
+  margin-top:80.38px;
+  height: 100%; 
+  width: 200px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 0px; 
+  transition: 0.5s; 
+}
+div.drop{
+  right:0;
+  margin-top:80.38px;
+  width: 0px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 0px; 
+
+
+}
+div.drop  a{
+  padding:6px 6px 6px 10px;
+  text-decoration: none;
+  font-size:16px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+div.drop a:hover ,button.logout:hover{
+  color:tomato;
+}
+button.logout{
+  background:#111;
+  color:#ffffff;
+  border:none;
+  font-size:16;
+  margin-left:8px;
+}
+
+  
+div.side  a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+div.side a:hover {
+  color:tomato;
+}
+
+div.note{
+  color:white;
+   font-family: sans-serif;
+   font-size:25px;
+   margin-top:23px;
+  float: left;
+  text-align:right;
+  cursor: pointer;
+  
+}
+div.note:hover{
+  color:tomato;
+}
+
+div.opennote{
+  left:530px;
+  margin-top:80.38px;
+  width:0px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  color:white;
+  background-color:black; 
+  overflow-x: hidden; 
+  
+}
+p{
+  margin:0px;
+  margin-left:3px;
+  margin-right:3px;
+}
+
+div.vik{
+  position:absolute;
+  text-align:center; 
+  width:25px;
+  height:25px;
+  background:white;
+  border-radius:50%;
+  left:130px;
+  margin-top:-30px;
+}
+

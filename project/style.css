@@ -1,0 +1,97 @@
+div.main{
+    margin:auto;
+    border:1px solid black;
+    width:840px;
+    margin-bottom:20px; 
+    
+}
+div.bar{
+    background:#333;
+    color:white;
+    font-size:20px;
+    height:30px;
+    padding:10px;
+}
+input{
+    height:50px;
+    font-family:sans-serif;
+    width:800px;
+    font-size:18px;
+    margin-left:20px;
+    margin-top:20px;
+    padding:10px;   
+}
+textarea{
+    font-family:sans-serif;
+    height:400px;
+    width:800px;
+    max-width:800px;
+    font-size:18px;
+    margin-left:20px;
+    margin-top:20px;
+    padding:10px;  
+}
+input[type=datetime-local]{
+    width:265px;
+}
+input[type="submit"]{
+    width:335px;
+    background:#333;
+    color:white;
+}
+input[type="submit"]:hover{
+    opacity:0.85;
+}
+input[type="file"]{
+    width:390px;    
+}
+label{
+    margin-left:20px;
+    font-size:18px;
+}
+input[type="submit"].q{
+    width:390px;
+    background:#333;
+    color:white;
+}
+input[type=radio],input[type=checkbox]{
+    height:30px;
+    width:30px;
+}
+
+div.margin{
+    margin-left:20px;
+}
+
+button{
+    text-align: left;
+    height:50px;
+    font-family:sans-serif;
+    width:820px;
+    font-size:18px;
+    margin-left:10px;
+    margin-top:5px;
+    padding:10px; 
+    background: silver;
+    border:none;
+    color:#191970;
+
+}
+button:hover{
+    opacity: 0.8;
+}
+
+span.note{
+    margin-top:0px;
+    float:right;
+    font-size:14px;
+    font-weight:normal;
+    text-align:right;
+}
+span.hey{
+    font-size:25px;
+    position: absolute;
+    top:25px;
+    float:right;
+    right:150px;
+  }
